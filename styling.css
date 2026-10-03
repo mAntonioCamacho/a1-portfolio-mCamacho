@@ -1,32 +1,95 @@
-p {
-    color: #f7f1e0;
+  /*            */
+ /* Background */
+/*            */
+#shelf { 
+    width: 100%;
+    display: block;
 }
 
-html {
-    font-size: 15px;
-    font-family:"Open Sans";
-    background-color: #f7f1e0;
-}
 
-h1 {
-    font-size: 50px;
-    font-family:"Open Sans";
-    margin: 0;
-    padding: 10px 0;
-    color: #f7f1e0;
-    text-align: left;
-    text-shadow: 3px 3px 1px black;
+.bookshelf {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
 }
 
 body {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #0e0847;
-    padding: 0 20px 20px 20px;
-    border: 5px solid #413e4c;
+    background-color: burlywood;
+    
 }
 
-img {
+  /*                    */
+ /* Book Title Styling */
+/*                    */
+#book-title1 {
+    font-size: auto;
+    font-family:"Open Sans";
+    margin: 0;
+    padding: 10px 0;
+    color: #ffe6a8;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+#book-title2 {
+    font-size: 20px;
+    font-family:"Open Sans";
+    margin: 0;
+    padding: 10px 0;
+    color: #ffe6a8;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+#book-title3 {
+    font-size: 20px;
+    font-family:"Open Sans";
+    margin: 0;
+    padding: 10px 0;
+    color: #ffe6a8;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+
+  /*                  */
+ /* Book dimesnsions */
+/*                  */
+.book-body {
+    width: 16%;
+    height: 24%;
+    border: 1px solid black;
+    position: absolute;
+}
+
+
+/*                 */
+/* Book positions */
+/*               */
+#book1 {
+    top: 10%;
+    left: 12%;
+    box-shadow: -5px -5px 10px black;
+    
+}
+#book2 {
+    top: 70%;
+    left: 12%;
+    box-shadow: -5px -5px 10px black;
+}
+#book3 {
+    top: 40%;
+    left: 12%;
+    box-shadow: -5px -5px 10px black;
+}
+#book4 {
+    top: 70%;
+    left: 80%;
+}
+
+
+/*                        */
+/* Picture on book frame */
+/*                      */
+.book-body img {
     display: block;
     margin: 0 auto;
     max-width: 65%;
@@ -35,3 +98,13 @@ img {
     border-bottom-right-radius: 5%;
     box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.443);
 }
+
+
+/*  */
+/*  */
+/*  */
+html, body {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
