@@ -8,56 +8,40 @@
 
 
 .bookshelf {
-    position: relative;
+    position: fixed;
     width: 90%;
+    left: 5%;
+    bottom: 0;
+    height: auto;
     margin: 0 auto;
 }
 
-body {
-    background-color: burlywood;
-    
-}
-
-  /*                    */
- /* Book Title Styling */
-/*                    */
-#book-title1 {
-    font-size: auto;
-    font-family:"Open Sans";
-    margin: 0;
-    padding: 10px 0;
-    color: #ffe6a8;
-    text-align: center;
-    text-shadow: 3px 3px 1px black;
-}
-#book-title2 {
-    font-size: 20px;
-    font-family:"Open Sans";
-    margin: 0;
-    padding: 10px 0;
-    color: #ffe6a8;
-    text-align: center;
-    text-shadow: 3px 3px 1px black;
-}
-#book-title3 {
-    font-size: 20px;
-    font-family:"Open Sans";
-    margin: 0;
-    padding: 10px 0;
-    color: #ffe6a8;
-    text-align: center;
-    text-shadow: 3px 3px 1px black;
+#body-back {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    filter:blur(clamp(0px, 100vw / 350, 15px));
 }
 
 
-  /*                  */
- /* Book dimesnsions */
-/*                  */
+  /*                 */
+ /* Book attributes */
+/*                 */
 .book-body {
+    /* Book Dimension */
     width: 16%;
     height: 24%;
     border: 1px solid black;
     position: absolute;
+    /* Book Text Stlye */
+    font-size: 1vw;
+    font-family:"Open Sans";
+    color: #ffe6a8;
+    text-align: center;
+    /* Book Styling */
+    
 }
 
 
@@ -83,6 +67,8 @@ body {
 #book4 {
     top: 70%;
     left: 80%;
+    box-shadow: 6px -2px 10px black;
+    background-color: rgb(51, 78, 101);
 }
 
 
@@ -90,10 +76,12 @@ body {
 /* Picture on book frame */
 /*                      */
 .book-body img {
+    
     display: block;
     margin: 0 auto;
     max-width: 65%;
-    border: 5px solid #413e4c;
+    /* Image Outline */
+    border: 5px solid #1c065e;
     border-top-right-radius: 70%;
     border-bottom-right-radius: 5%;
     box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.443);
