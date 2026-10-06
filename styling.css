@@ -55,7 +55,8 @@
         -5px -5px 10px black,
         3px 0 0 #ddd,
         6px 0 0 #ccc,
-        9px 0 0 #bbb; 
+        9px 0 0 #bbb,
+        11px 0 0 #15083b; 
     background-color: #15083b;
 }
 #book2 {
@@ -65,7 +66,8 @@
         -5px -5px 10px black,
         3px 0 0 #ddd,
         6px 0 0 #ccc,
-        9px 0 0 #bbb;
+        9px 0 0 #bbb,
+        11px 0 0 #bfa76c;
     background-color: #ceb474;
 }
 #book3 {
@@ -75,14 +77,15 @@
         -5px -5px 10px black,
         3px 0 0 #ddd,
         6px 0 0 #ccc,
-        9px 0 0 #bbb;
+        9px 0 0 #bbb,
+        11px 0 0 rgb(37, 58, 77);
         background-color: rgb(37, 58, 77);
 }
 #book4 {
     top: 70%;
-    left: 75%;
+    left: 73%;
     box-shadow: 
-        6px -2px 10px black,
+        2px -2px 10px black,
         2px 0 0 #ddd,
         4px 0 0 #ccc;
     background-color: #ceb474;
@@ -107,6 +110,8 @@
     border-top-right-radius: 70%;
     border-bottom-right-radius: 5%;  
 }
+
+
 
 
 /*  */
