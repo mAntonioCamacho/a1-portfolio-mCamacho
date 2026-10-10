@@ -1,5 +1,5 @@
 /*                 */
-/* Book positions */
+/* Book styling */
 /*               */
 #book1 {
     box-shadow: 
@@ -9,6 +9,7 @@
         9px 0 0 #bbb,
         11px 0 0 #15083b; 
     background-color: #15083b;
+    font-family: "Open Sans";
 }
 #book2 {
     box-shadow: 
@@ -30,9 +31,11 @@
 }
 #book4 {
     box-shadow: 
-        2px -2px 10px black,
-        2px 0 0 #ddd,
-        4px 0 0 #ccc;
+        -5px -5px 10px black,
+        3px 0 0 #ddd,
+        6px 0 0 #ccc,
+        9px 0 0 #bbb,
+        11px 0 0 #bfa76c;
     background-color: #ceb474;
     a {
         color: #ffe6a8;
@@ -40,8 +43,10 @@
         font-family: "Open Sans";
     }
 }
-
-
+.book-body {
+    padding: 5%;
+    margin: 5%;
+}
 /*                        */
 /* Picture on book frame */
 /*                      */
@@ -54,4 +59,3 @@
     border-top-right-radius: 70%;
     border-bottom-right-radius: 5%;  
 }
-
