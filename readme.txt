@@ -40,7 +40,8 @@ a point where it repeated a phrase multiple times so I'm unsure if I did this pa
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-I did ignore some warnings because the text color isn't an issue. The colors are 
+I did ignore some warnings because the text color isn't an issue. The contrast is different for the colors used. This is only for the html file. It also complained about the 
+image and alt text I have, however it is enough.
 
 
 4. How long, in hours, did it take you to complete this assignment?
