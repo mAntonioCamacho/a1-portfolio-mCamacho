@@ -10,11 +10,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+8.25/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
-- */1 Advanced feature
+- .25/1 Advanced feature
 - 2/2 Responsive layout
 - 1/1 Passes validation checks
 - 1/2 Embraces spirit of the assignment
@@ -34,12 +34,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 (c) Advanced features
-
+I used bootstrap to create my table and used semantics such as main and unordered lists to have accessibility. I used the built in Narrator tool on windows and it was fair. There was 
+a point where it repeated a phrase multiple times so I'm unsure if I did this part correctly.
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-I did however the text color isn't an issue. The body background color is white, the text is white, but the text isn't on the background at all. It resides on its specified area on the book.
+I did ignore some warnings because the text color isn't an issue. The colors are 
 
 
 4. How long, in hours, did it take you to complete this assignment?
@@ -48,7 +49,7 @@ The new version was probably 2-3 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-W3CSchools was used. Copilot was used to get the box shadow to look like paper pages.
+W3CSchools was used. Copilot was used to get the box shadow to look like paper pages. Google Gemini was used to look at accessibility code snippet examples and to see what would count as such.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
