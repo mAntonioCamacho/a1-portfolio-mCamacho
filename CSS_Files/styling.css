@@ -97,6 +97,18 @@
     border-bottom-right-radius: 5%;  
 }
 
+#fish-pic {
+    margin-right: 15%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    max-width: 55.5%;
+    /* Image Outline */
+    border: 2px solid #00000077;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 5%; 
+}
+
 /*                  */
 /* Book Titles     */
 /*                */
