@@ -23,50 +23,59 @@
   </head>
 
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="main-header"></div>
-      </div>
-    </div>
-    
-    
-    <!-- THIS BE THE BOOK SELECTION -->
-    <div class="container pt-5">
-      <div class="row">
-        
-        <div class="col-sm-12">
-          <!-- Book 1 -->
-          <a href ="portfolio.html">
-            <div class="book-body" id="book1">
-              <div id="book-binding1"></div>
-              <h1 id="book-title1">Portfolio</h1>
-              <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
-            </div>
-          </a>
+  <body style="background: #212529;">
+    <div style="background: #212529;" id="outer-back">
+
+      <!-- THIS BE A HEADER? -->
+        <div class="container">
+          <div class="row">
+            <h1 class="main-header" style="text-align: center; color: rgb(253, 255, 181); padding-top: 5%; font-size: 250%; font-family: Georgia, 'Times New Roman', Times, serif;">Marco Camacho</h1>
+            <h2 class="main-header" style="text-align: center; color: rgb(253, 255, 181); font-size: 150%; font-family: Georgia, 'Times New Roman', Times, serif;">Technical Game Designer/Gameplay Engineer</h2>
+          </div>
         </div>
 
-        <div class="col-sm-12">
-          <!-- Book 2  -->
-          <a id="aboutMeLink" href="aboutMe.html">
-            <div class="book-body" id="book2">
-              <div id="book-binding2"></div>
-              <h1 id="book-title2">About Me</h1>
-              <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
+      <div style="background: #2500004f; margin: 5%; padding-bottom: 5%;" id="inner-back">
+
+        <!-- THIS BE THE BOOK SELECTION -->
+        <div class="container pt-5">
+          <div class="row">
+
+            <!-- Book 1 -->
+            <div class="col-sm-4">
+              <a href ="portfolio.html" style="text-decoration: none; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <div class="book-body" id="book1">
+                  <div id="book-binding1"></div>
+                  <h1 id="book-title1">Portfolio</h1>
+                  <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
+                </div>
+              </a>
             </div>
-          </a>       
+
+            <!-- Book 2  -->
+            <div class="col-sm-4">
+              <a id="aboutMeLink" href="aboutMe.html" style="text-decoration: none; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <div class="book-body" id="book2">
+                  <div id="book-binding2"></div>
+                  <h1 id="book-title2">About Me</h1>
+                  <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
+                </div>
+              </a>       
+            </div>
+
+            <!-- Book 3 -->
+            <div class="col-sm-4">
+              <a href="resume.html" style="text-decoration: none; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <div class="book-body" id="book3">
+                  <div id="book-binding3"></div>
+                  <h1 id="book-title3">Resume</h1>
+                  <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
+                </div>
+              </a>
+            </div>
+
+          </div>
         </div>
 
-        <div class="col-sm-12">
-          <!-- Book 3 -->
-          <a href="resume.html">
-            <div class="book-body" id="book3">
-              <div id="book-binding3"></div>
-              <h1 id="book-title3">Resume</h1>
-              <img src="../Images/photo_of_me3.jpg" alt="Black and White photo of me.">
-            </div>
-          </a>
-        </div>
       </div>
     </div>
   </body>

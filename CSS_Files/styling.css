@@ -3,7 +3,7 @@
 /*               */
 #book1 {
     box-shadow: 
-        -5px -5px 10px black,
+        -5px -5px 10px rgba(0, 0, 0, 0.244),
         3px 0 0 #ddd,
         6px 0 0 #ccc,
         9px 0 0 #bbb,
@@ -30,7 +30,7 @@
 
 #book2 {
     box-shadow: 
-        -5px -5px 10px black,
+        -5px -5px 10px rgba(0, 0, 0, 0.244),
         3px 0 0 #ddd,
         6px 0 0 #ccc,
         9px 0 0 #bbb,
@@ -57,7 +57,7 @@
 
 #book3 {
     box-shadow: 
-        -5px -5px 10px black,
+        -5px -5px 10px rgba(0, 0, 0, 0.244),
         3px 0 0 #ddd,
         6px 0 0 #ccc,
         9px 0 0 #bbb,
@@ -87,7 +87,7 @@
 /*                      */
 .book-body img { 
     margin-right: 15%;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-bottom: 35%;
     margin-top: 10%;
     max-width: 55.5%;
@@ -106,18 +106,16 @@ h1 {
 }
 
 #book-title1 {
-    font-size: clamp(4vw, 5.5vw, 8vw);
+    font-size: 165%;
+    color: rgb(253, 255, 181);
 }
 
 #book-title2 {
-    font-size: clamp(4vw, 5.5vw, 8vw);
+    font-size: 165%;
+    color: #15083b;
 }
 
 #book-title3 {
-    font-size: clamp(4vw, 5.5vw, 8vw);
+    color: rgb(253, 255, 181);
+    font-size: 165%;
 }
-
-
-/*  */
-/*  */
-/*  */
