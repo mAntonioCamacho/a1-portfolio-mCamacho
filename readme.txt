@@ -10,45 +10,52 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+8.25/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- .25/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 1/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+1. Image with alt text
+2. Appropriate heading text on the bookshelf
+3. Links to external pages. (The books)
+4. Custom Font from google
 
 
 (b) CSS features
-
+1. Margins and Padding was used to give books space between them
+2. Modified the color of the box shadows and background color to give illusion of book.
 
 
 (c) Advanced features
-
+I used bootstrap to create my table and used semantics such as main and unordered lists to have accessibility. I used the built in Narrator tool on windows and it was fair. There was 
+a point where it repeated a phrase multiple times so I'm unsure if I did this part correctly.
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+I did ignore some warnings because the text color isn't an issue. The contrast is different for the colors used. This is only for the html file. It also complained about the 
+image and alt text I have, however it is enough.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+I don't know, I spent 8 creating and learning. I made my website interactive by having the links act as books, and I had placed them onto a bookshelf. This was before using bootstrap.
+The new version was probably 2-3 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+W3CSchools was used. Copilot was used to get the box shadow to look like paper pages. Google Gemini was used to look at accessibility code snippet examples and to see what would count as such.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+No one other than Professor saw the original. We only discussed what would count for a pass.
 
 
 7. Is there anything special we need to know in order to run your code?
-
+Nope.
