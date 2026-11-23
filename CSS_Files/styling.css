@@ -120,14 +120,35 @@ h1 {
 #book-title1 {
     font-size: 165%;
     color: rgb(253, 255, 181);
+    margin-left: 6%;
 }
 
 #book-title2 {
-    font-size: 165%;
     color: #15083b;
+    font-size: 165%;
+    margin-left: 6%;
 }
 
 #book-title3 {
     color: rgb(253, 255, 181);
     font-size: 165%;
+    margin-left: 6%;
+}
+
+#book-title1-cat {
+    color: rgb(253, 255, 181);
+    font-size: 155%;
+    margin-left: 6%;
+}
+
+#book-title2-motroid {
+    color: #15083b;
+    font-size: 165%;
+    margin-left: 6%;
+}
+
+#book-title3-bandit {
+    color: rgb(253, 255, 181);
+    font-size: 135%;
+    margin-left: 6%;
 }
